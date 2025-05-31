@@ -17,9 +17,13 @@ Click on Add New Interpreter
 Click Local Interpreter
 Click OK
 
+Create a requirements.txt file
 Open Pycharm Terminal
-Use the Commandline below to create requirements.txt 
-pip freeze > requirements.txt
+Use the Commandline below to install requirements.txt 
+
+-pip install -r requirements.txt
+-pip  freeze
+-pip  freeze > requirements.txt
 
 Use the Commandline below to Install Selenium 
 pip install selenium
@@ -53,7 +57,6 @@ My_Selenium_Project/
 
 # LocatorsPage
 from selenium.webdriver.common.by import By
-
 
 class LoginLocators:
       Input_Email = (By.ID, "email-id")

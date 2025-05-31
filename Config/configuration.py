@@ -9,4 +9,4 @@ class Config:
       LAST_NAME = "Alex"
       CITY = "Lagos"
       STATE = "Maryland"
-      WAIT_TIME = 5
+      WAIT_TIME = 2
